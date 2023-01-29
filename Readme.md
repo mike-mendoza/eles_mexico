@@ -1,0 +1,5 @@
+# National extreme traffic load effects on simply supported concrete bridge network map
+
+In this work, 576 simply supported bridges located at the fifteen major highway corridors of Mexico are the object of investigation. Long-run site-specific simulations are performed based on recorded traffic data provided by permanent counting stations. Then, the structural response due to the simulated traffic is assessed and the characteristic values of the traffic load effects are obtained with selected return periods according to the Mexican authorities. The outcome is mapped and spatial analysis is performed using an open-source geographic information system application. In particular, the maps generated are the major source of site-specific traffic load effects on bridges in Mexico, serving as a base for optimal maintenance plans for the existing structures. The methodology herein presented can be used to assess the condition of a bridge network and to prioritize maintenance and repair activities by identifying potential bridges subjected to major load stress. 
+
+The map can be found at  https://github.com/mike-mendoza/eles_mexico
