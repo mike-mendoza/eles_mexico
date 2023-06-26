@@ -37,7 +37,7 @@ layerSwitcher.hidePanel = function() {};
 layerSwitcher.showPanel();
 
 
-map.getView().fit([-13069286.810257, 1110531.558260, -9527288.164207, 4431043.229267], map.getSize());
+map.getView().fit([-13069286.810257, 1525002.929188, -9527288.164207, 3934863.447974], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
@@ -359,12 +359,15 @@ map.on("rendercomplete", function(evt) {
         var attribution = document.getElementsByClassName('ol-attribution')[0];
         var attributionList = attribution.getElementsByTagName('ul')[0];
         var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
+		var mikeGitAttribution = document.createElement('li');
+        mikeGitAttribution.innerHTML = '<a href="https://github.com/mike-mendoza">MikeMendoza</a> &middot; ';
         var qgis2webAttribution = document.createElement('li');
         qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> &middot; ';
         var olAttribution = document.createElement('li');
         olAttribution.innerHTML = '<a href="https://openlayers.org/">OpenLayers</a> &middot; ';
         var qgisAttribution = document.createElement('li');
         qgisAttribution.innerHTML = '<a href="https://qgis.org/">QGIS</a>';
+		attributionList.insertBefore(mikeGitAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
         attributionList.insertBefore(olAttribution, firstLayerAttribution);
         attributionList.insertBefore(qgisAttribution, firstLayerAttribution);

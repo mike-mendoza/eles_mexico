@@ -1,5 +1,9 @@
-# National extreme traffic load effects on simply supported concrete bridge network map
+# Bridge criticality due to extreme traffic loads
 
-In this work, 576 simply supported bridges located at the fifteen major highway corridors of Mexico are the object of investigation. Long-run site-specific simulations are performed based on recorded traffic data provided by permanent counting stations. Then, the structural response due to the simulated traffic is assessed and the characteristic values of the traffic load effects are obtained with selected return periods according to the Mexican authorities. The outcome is mapped and spatial analysis is performed using an open-source geographic information system application. In particular, the maps generated are the major source of site-specific traffic load effects on bridges in Mexico, serving as a base for optimal maintenance plans for the existing structures. The methodology herein presented can be used to assess the condition of a bridge network and to prioritize maintenance and repair activities by identifying potential bridges subjected to major load stress. 
+This repository presents a map that is a part of the outcome of the research work titled _Estimating Bridge Criticality Due to Extreme Traffic Loads in Large Highway Networks with the Use of Probabilistic Models._ The research proposes a methodology to quantify the structural criticality of bridges at a network level.
+
+The map serves as a visual representation of the research outcomes, illustrating the application of the proposed methodology. It provides insights into the structural criticality of 576 bridges within the national highway network of Mexico.
+
+This visualization can be utilized to assess the condition of a bridge network and prioritize maintenance and repair activities by identifying potential bridges subjected to major load stress.
 
 The map can be found at  https://github.com/mike-mendoza/eles_mexico
