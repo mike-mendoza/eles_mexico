@@ -6,4 +6,4 @@ The map serves as a visual representation of the research outcomes, illustrating
 
 This visualization can be utilized to assess the condition of a bridge network and prioritize maintenance and repair activities by identifying potential bridges subjected to major load stress.
 
-The map can be found at  https://github.com/mike-mendoza/eles_mexico
+The map can be found at  https://mike-mendoza.github.io/eles_mexico/
